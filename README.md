@@ -5,7 +5,7 @@
 ## Об архитектуре
 
 Сделал легко расширяемым возможность добавления новых действий:
- - [регистрация действий]()
+ - [регистрация действий](https://github.com/xao0isb/monty_hall_problem/blob/751884ca0e603e91b3c6e70d60c750a00c119b93/lib/monty_hall_problem/game.rb#L36-L43)
  - [сами действия](https://github.com/xao0isb/monty_hall_problem/tree/main/lib/monty_hall_problem/game/actions)
 
 Учел, что нужно валидировать вводимые данные пользователем. Для это сделал свой STDIN клиент и добавил для него валидоры, а также сделал их легко расширяемыми:
